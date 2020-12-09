@@ -1,0 +1,75 @@
+body {
+    animation: colorchange 15s linear 1s infinite;
+    -webkit-animation: colorchange 7s linear 0s infinite alternate;
+    
+}
+
+@keyframes colorchange {
+    0% {
+        background: #08615b 0%;
+        
+    }
+    50% {
+        background: #0f6770 50%;
+        
+    }
+    100% {
+        background: #15576e 100%;
+        
+    }
+}
+
+h2,h1 {
+    color: #00fff2;
+}
+
+p,a,ol,ul {
+    font-size: 17px;
+    color: #e3f8f7;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #0591b4;
+    overflow: auto;
+}
+  
+.navbar a {
+    float: left;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.navbar a:hover {
+    background-color: #034758;
+}
+  
+.active {
+    background-color: #07c1e2;
+}
+  
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#backgrund {
+    height: 500px;
+}
+
+#fritid {
+    height: 250px;
+}
+
+.img1 {
+    height: 150px;
+    width: 240px;
+}
