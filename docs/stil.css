@@ -52,28 +52,78 @@
     }
 }
 
+body{
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
 header{
-    background-color: lightgreen;
+    background-color: #007700;
 }
 nav{
-    background-color: lightskyblue;
+    background-color: #002a77;
     width:  25%;
     float: left;
 }
 main{
-    background-color: lightyellow;
+    background-color: #7c7c00;
     width: 75%;
     float: left;
 }
 aside{
-    background-color: lightseagreen;
+    background-color: #00817b;
 }
 footer{
-    background-color: lightpink;
+    background-color: #7a0012;
 }
 
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
+        margin: 0;
+        padding: 0;
     }
+}
+
+@import "https://ionicons.com/";
+
+.btns {
+    position: relative;
+    top: 10%;
+    left: 12.5%;
+    transform: translate(-50%, 0%);
+}
+
+.btns a {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    line-height: 10px;
+    border: 3px solid;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+}
+.btns a::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 0%;
+    height: 0%;
+    transform: translate(-50%, 0%);
+    background: #4196ac;
+    z-index: -1;
+    transition: 0.4s all;
+    border-radius: 50%;
+}
+.btns a:hover::after{
+    width: 100%;
+    height: 100%;
 }
