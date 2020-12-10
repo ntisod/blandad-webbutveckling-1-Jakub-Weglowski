@@ -52,13 +52,11 @@
     }
 }
 
-body{
+body, a{
     color: #ffffff;
 }
 
-a{
-    color: #ffffff;
-}
+
 
 header{
     background-color: #007700;
