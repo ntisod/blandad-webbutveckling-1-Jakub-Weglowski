@@ -107,6 +107,7 @@ footer{
     border-radius: 50%;
     margin: 10px;
     position: relative;
+    float: left;
 }
 .btns a::after{
     content: '';
