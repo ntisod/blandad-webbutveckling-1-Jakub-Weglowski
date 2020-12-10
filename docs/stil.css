@@ -52,14 +52,18 @@
     }
 }
 
-body, a{
+body{
+    color: #ffffff;
+    background-color: #5c8838;
+    z-index: -1;
+}
+
+a{
     color: #ffffff;
 }
 
-
-
 header{
-    background-color: #007700;
+    background-color: #774d00;
 }
 nav{
     background-color: #002a77;
@@ -90,9 +94,8 @@ footer{
 
 .btns {
     position: relative;
-    top: 0%;
-    left: 12.5%;
-    transform: translate(-50%, 0%);
+    top: 50%;
+    transform: translate(0%, 0%);
 }
 
 .btns a {
