@@ -42,7 +42,7 @@
     [class*="col-"] {
         float: left;
         padding: 15px;
-        border: 1px solid red;
+        border: 1px solid #000000;
     }
 
     .row::after {
@@ -54,7 +54,7 @@
 
 body{
     color: #ffffff;
-    background-color: #3bcfda;
+    background-color: #797979;
     z-index: -1;
     text-align: center;
     font-size: 20px;
@@ -62,30 +62,51 @@ body{
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     color: #ffffff;
 }
 
+.btn {
+    color: #ffffff;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #004b9b, #2cb5ca);
+}
+
+.btn:nth-child(2) {
+    background: linear-gradient(90deg, #74663a, #480f5f);
+}
+
+
 header{
-    background-color: #00770a;
+    background: linear-gradient(90deg, #08290e, #17571c, #278d30, #59f766, #278d30, #17571c, #08290e);
 }
 nav{
-    background-color: #002a77;
     width:  25%;
     float: left;
+    background: linear-gradient(90deg, #2f8fdd, #002249);
 }
 main{
-    background-color: #7c7c00;
+    background: linear-gradient(90deg, #7c6a01, #cece18 ,#7c6a01);
     width: 75%;
     float: left;
 }
 aside{
-    background-color: #009790;
+    background: linear-gradient(90deg, #015752, #27fff4);
 }
 footer{
-    background-color: #7a0012;
+    background: linear-gradient(90deg, #29080f, #571722, #8d2735, #e42e2e, #8d2735, #571722, #29080f);
 }
 
 @media only screen and (max-width: 600px) {
@@ -97,40 +118,3 @@ footer{
 }
 
 @import "https://ionicons.com/";
-
-.btns {
-    position: relative;
-    transform: translate(0%, 0%);
-}
-
-.btns a {
-    width: 35px;
-    height: 35px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    display: block;
-    line-height: 10px;
-    border: 3px solid;
-    border-radius: 50%;
-    margin: 10px;
-    position: relative;
-    float: left;
-}
-.btns a:after{
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    width: 0%;
-    height: 0%;
-    transform: translate(-50%, 0%);
-    background: #4196ac;
-    z-index: -1;
-    transition: 0.4s all;
-    border-radius: 50%;
-}
-.btns a:hover::after{
-    width: 100%;
-    height: 100%;
-}
