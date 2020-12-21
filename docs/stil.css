@@ -88,28 +88,28 @@ a {
 }
 
 header{
-    background-color: #0b0c10;
+    background-color: #272727;
 }
 nav{
     width:  25%;
     float: left;
-    background-color: #0b0c10;
+    background-color: #272727;
 }
 main{
-    background-color: #0b0c10;
+    background-color: #272727;
     width: 75%;
     float: left;
 }
 aside{
-    background-color: #0b0c10;
+    background-color: #272727;
 }
 footer{
-    background-color: #0b0c10;
+    background-color: #272727;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: #0b0c10;
+        background-color: #272727;
         margin: 0;
         padding: 0;
     }
