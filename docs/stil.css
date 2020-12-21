@@ -1,14 +1,14 @@
 
 * {
     box-sizing: border-box;
-  }
+}
 
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
-  }
+}
   
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -41,8 +41,8 @@
 
     [class*="col-"] {
         float: left;
-        padding: 15px;
-        border: 1px solid #000000;
+        padding: 20px;
+        border: 1px solid white;
     }
 
     .row::after {
@@ -53,13 +53,16 @@
 }
 
 body{
-    color: #ffffff;
-    background-color: #797979;
+    color: white;
+    background-color: #272727;
     z-index: -1;
     text-align: center;
     font-size: 20px;
 }
 
+h1,h2 {
+    color: #66fcf1;
+}
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -67,11 +70,11 @@ p {
 }
 
 a {
-    color: #ffffff;
+    color: white;
 }
 
 .btn {
-    color: #ffffff;
+    color: white;
     justify-content: center;
     position: relative;
     display: inline-block;
@@ -81,37 +84,32 @@ a {
     text-transform: uppercase;
     font-size: 18px;
     border-radius: 40px;
-    background: linear-gradient(90deg, #004b9b, #2cb5ca);
+    background-color: #45a29e;
 }
-
-.btn:nth-child(2) {
-    background: linear-gradient(90deg, #74663a, #480f5f);
-}
-
 
 header{
-    background: linear-gradient(90deg, #08290e, #17571c, #278d30, #59f766, #278d30, #17571c, #08290e);
+    background-color: #0b0c10;
 }
 nav{
     width:  25%;
     float: left;
-    background: linear-gradient(90deg, #2f8fdd, #002249);
+    background-color: #0b0c10;
 }
 main{
-    background: linear-gradient(90deg, #7c6a01, #cece18 ,#7c6a01);
+    background-color: #0b0c10;
     width: 75%;
     float: left;
 }
 aside{
-    background: linear-gradient(90deg, #015752, #27fff4);
+    background-color: #0b0c10;
 }
 footer{
-    background: linear-gradient(90deg, #29080f, #571722, #8d2735, #e42e2e, #8d2735, #571722, #29080f);
+    background-color: #0b0c10;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: lightblue;
+        background-color: #0b0c10;
         margin: 0;
         padding: 0;
     }
