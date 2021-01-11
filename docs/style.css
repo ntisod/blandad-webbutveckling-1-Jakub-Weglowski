@@ -4,99 +4,79 @@ body {
     text-align: center;
     margin: 0px;
     border-style: solid;
+    padding-top: 5px;
+}
+  
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: unset;
+}
+  
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: unset;
+}
+  
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: unset;
+}
+  
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: unset;
+}
+
+section {
+    color: white;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 32%;
+    padding-right: 32%;  
+}
+  
+nav {
+  
+    border-bottom: solid;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  
+}
+  
+article {
+  
+    color: white;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 32%;
+    padding-right: 32%;
+  
+}
+  
+img {
     border-color: white;
-    padding-top: 3%;
-  }
+    border-style: solid;
+}
   
-  
-  
-  a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  }
-  
-  a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  }
-  
-  a:hover {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  }
-  
-  a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  }
-  
-  
-  section {
-  
-  color: white;
-  text-align: center;
-  border-top: solid;
-  border-bottom: solid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 32%;
-  padding-right: 32%;
-  
-  }
-  
-  nav {
-  
-  border-bottom: solid;
-  text-align: center;
-  color: white;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  
-  }
-  
-  article {
-  
-  color: white;
-  text-align: center;
-  border-top: solid;
-  border-bottom: solid;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 32%;
-  padding-right: 32%;
-  
-  }
-  
-  img {
-  
-  border-style: solid;
-  border-color: white;
-  
-  }
-  
-  p {
-  
-  text-shadow: 0px 4px 8px black;
-  max-width: 18cm;
-  
-  }
-  
-  h2 {
-  
+h2 {
     color: #66fcf1;
-    text-shadow: 0px 4px 8px black;
-    max-width: 18cm;
+}
   
-  }
-  
-  h1 {
-  
+h1 {
     color: #66fcf1;
-    text-shadow: 0px 4px 8px black;
+    
   }
   
   footer {
