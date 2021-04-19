@@ -1,3 +1,3 @@
 function authorDialog() {
-    onclick="document.getElementById('demo').innerHTML = Date()"
+    alert(onclick=document.getElementById('demo').innerHTML = Date())
 }
