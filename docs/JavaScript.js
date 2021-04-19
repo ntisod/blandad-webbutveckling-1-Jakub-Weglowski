@@ -1,3 +1,3 @@
-function VisaDialog() {
-    alert("Hej Världen")
+function authorDialog() {
+    onclick="document.getElementById('demo').innerHTML = Date()"
 }
