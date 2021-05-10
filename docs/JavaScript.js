@@ -1,0 +1,3 @@
+function authorDialog() {
+    alert("Hello");
+}
