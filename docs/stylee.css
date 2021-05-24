@@ -629,11 +629,11 @@ body{
 
 
 /*//////////Cool Images////////////*/
-.images{
+.cool-images{
   background: #000016;
 }
 
-.images .content{
+.cool-images .content{
   flex-wrap: wrap;
   margin: 10px;
 }
