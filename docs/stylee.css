@@ -680,9 +680,9 @@ a {
 }
 img {
   image-rendering: auto;
-  max-width: 100%;
-  clear: left;
+  width: auto;
   height: 500px;
+  clear: left;
   vertical-align: top;
   box-shadow: 0 4px 16px 0 rgba(255, 255, 255, 0.24), 0 4px 16px 0 rgba(255, 255, 255, 0.18);
 }
