@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(to left, #ADFF2F, #FF7F50);
+    }
+  
+    aside{
+    width:35%;
+    padding:40px;
+    float:right;
+    font-size:20px;
+    font-style:italic;
+    color: black;
+    }
+  
+    .idk{
+    font-size:35px;
+    }
+    .text{
+    font-size:20px;
+    width:50%;
+    }
+    footer{
+    width: 0px;
+    position: absolute;
+    top: 5%;
+    right:30%;
+    }
+    .Jakub{
+    text-align:center;
+    }
